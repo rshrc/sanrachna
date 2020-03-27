@@ -1,9 +1,10 @@
 from django.db import models
+from pygments.lexer import default
+
 from deal import deal_config
+from django.contrib.postgres.fields import ArrayField
 from accounts.models import Profile
 
-
-# Create your models here.
 
 class Prospect(models.Model):
     user = models.ForeignKey(Profile, on_delete=models.CASCADE, default="")
@@ -11,6 +12,11 @@ class Prospect(models.Model):
     email = models.EmailField()
     site_type = models.CharField(max_length=20, choices=deal_config.SITE_TYPES)
     source_type = models.CharField(max_length=20, choices=deal_config.SOURCE_TYPES)
+    status = models.CharField(max_length=20, choices=deal_config.PROSPECT_TYPES, blank=True)
+    complete = models.BooleanField(default=False, blank=True)
+
+    def __str__(self):
+        return "Prospect for {}".format(self.user.email)
 
 
 # Brand Name, Material Name, Type, Unit, Rate, Description.
@@ -21,6 +27,7 @@ class Material(models.Model):
     unit = models.CharField(max_length=100)
     rate = models.CharField(max_length=20)
     description = models.TextField(max_length=1000)
+    prospect = models.ForeignKey(to=Prospect, related_name='materials', on_delete=models.CASCADE, default="")
 
     def __str__(self):
         return self.brand_name + " " + self.material_name
@@ -32,6 +39,7 @@ class Service(models.Model):
     service_name = models.CharField(max_length=100)
     description = models.TextField(max_length=1000)
     rate_of_service = models.CharField(max_length=20)
+    prospect = models.ForeignKey(to=Prospect, related_name='services', on_delete=models.CASCADE, default="")
 
     def __str__(self):
         return self.service_name + self.type

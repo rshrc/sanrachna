@@ -6,7 +6,7 @@ from deal.models import Material, Service, Associate, Prospect
 class ProspectAdmin(admin.ModelAdmin):
     model = Prospect
     list_display = [
-       # 'user',
+        'user',
         'organization',
         'email',
         'site_type',

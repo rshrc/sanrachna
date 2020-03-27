@@ -24,3 +24,9 @@ SOURCE_TYPES = (
     ('ONLINE', 'ONLINE'),
     ('OFFLINE', 'OFFLINE'),
 )
+
+PROSPECT_TYPES = (
+    ('LEAD', 'LEAD'),
+    ('CLIENT', 'CLIENT'),
+    ('CANCEL', 'CANCEL'),
+)
