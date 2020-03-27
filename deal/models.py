@@ -1,0 +1,45 @@
+from django.db import models
+from deal import deal_config
+from accounts.models import Profile
+
+
+# Create your models here.
+
+class Prospect(models.Model):
+    user = models.ForeignKey(Profile, on_delete=models.CASCADE, default="")
+    organization = models.CharField(max_length=50, blank=True)
+    email = models.EmailField()
+    site_type = models.CharField(max_length=20, choices=deal_config.SITE_TYPES)
+    source_type = models.CharField(max_length=20, choices=deal_config.SOURCE_TYPES)
+
+
+# Brand Name, Material Name, Type, Unit, Rate, Description.
+class Material(models.Model):
+    brand_name = models.CharField(max_length=100)
+    material_name = models.CharField(max_length=100)
+    type = models.CharField(max_length=100, choices=deal_config.MATERIAL_TYPES)
+    unit = models.CharField(max_length=100)
+    rate = models.CharField(max_length=20)
+    description = models.TextField(max_length=1000)
+
+    def __str__(self):
+        return self.brand_name + " " + self.material_name
+
+
+# Service Type, Service Name, Description, Rate of service (unit-wise)
+class Service(models.Model):
+    type = models.CharField(max_length=100, choices=deal_config.SERVICE_TYPES)
+    service_name = models.CharField(max_length=100)
+    description = models.TextField(max_length=1000)
+    rate_of_service = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.service_name + self.type
+
+
+class Associate(models.Model):
+    user = models.ForeignKey(Profile, on_delete=models.CASCADE, default="")
+    type = models.CharField(max_length=20, choices=deal_config.ASSOCIATE_TYPES)
+
+    def __str__(self):
+        return self.user.email + " " + self.type

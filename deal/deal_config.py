@@ -1,0 +1,26 @@
+MATERIAL_TYPES = (
+    ('CHEAP', 'CHEAP'),
+    ('EXPENSIVE', 'EXPENSIVE')
+)
+
+SERVICE_TYPES = (
+    ('CHEAP', 'CHEAP'),
+    ('EXPENSIVE', 'EXPENSIVE')
+)
+
+ASSOCIATE_TYPES = (
+    ('SUPERVISOR', 'SUPERVISOR'),
+    ('VENDOR', 'VENDOR'),
+    ('LABOR', 'LABOR'),
+)
+
+SITE_TYPES = (
+    ('COMMERCIAL', 'COMMERCIAL'),
+    ('OFFICE', 'OFFICE'),
+    ('HOME', 'HOME')
+)
+
+SOURCE_TYPES = (
+    ('ONLINE', 'ONLINE'),
+    ('OFFLINE', 'OFFLINE'),
+)
