@@ -1,2 +1,4 @@
+djangorestframework
 django
 psycopg2
+django-rest-framework

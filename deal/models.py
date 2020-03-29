@@ -1,8 +1,6 @@
 from django.db import models
-from pygments.lexer import default
 
 from deal import deal_config
-from django.contrib.postgres.fields import ArrayField
 from accounts.models import Profile
 
 
