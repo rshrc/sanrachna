@@ -1,3 +1,14 @@
 from django.db import models
+from config import config
 
-# Create your models here.
+
+class Vendor(models.Model):
+    pass
+
+
+class Labour(models.Model):
+    pass
+
+
+class Supervisor(models.Model):
+    pass
