@@ -1,0 +1,4 @@
+Associate : Vendor, Labour, Supervisor.
+Clientele: Prospects, Leads, Clients
+Database: Material, Services
+Prospects:  Full Name, Organisation(if any), Mobile Number, Email-id, Site type-dropdown (Commercial, Office, Home),Source (Online/Offline).
