@@ -1,18 +1,20 @@
 from django.db import models
+from prospect.models import ProspectModel
 
 
-class ClienteleModel(models.Model):
-    class Meta:
-        abstract = True
+class Prospect(ProspectModel):
+
+    def __str__(self):
+        return self.full_name
 
 
-class Prospect(ClienteleModel):
-    pass
+class Lead(ProspectModel):
+
+    def __str__(self):
+        return self.full_name
 
 
-class Lead(ClienteleModel):
-    pass
+class Client(ProspectModel):
 
-
-class Client(ClienteleModel):
-    pass
+    def __str__(self):
+        return self.full_name
