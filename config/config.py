@@ -1,3 +1,6 @@
+from rest_framework import serializers
+
+
 MATERIAL_TYPES = (
     ('CHEAP', 'CHEAP'),
     ('EXPENSIVE', 'EXPENSIVE')
@@ -30,3 +33,5 @@ PROSPECT_TYPES = (
     ('CLIENT', 'CLIENT'),
     ('CANCEL', 'CANCEL'),
 )
+
+MATERIAL_FIELDS = ['sno', 'particulars', 'quantity', 'unit', 'rate'] #, 'prospect']
