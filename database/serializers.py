@@ -39,3 +39,9 @@ class CivilMaterialSerializer(serializers.ModelSerializer):
     class Meta:
         model = db_models.CivilMaterial
         fields = config.MATERIAL_FIELDS
+
+
+class ServiceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = db_models.Service
+        fields = config.SERVICE_FIELDS

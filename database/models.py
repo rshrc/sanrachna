@@ -8,7 +8,7 @@ class Material(models.Model):
     quantity = models.CharField(max_length=100, default="", blank=True)
     unit = models.CharField(max_length=100, default="", blank=True)
     rate = models.CharField(max_length=100, default="", blank=True)
-    prospect = models.ManyToManyField(Prospect, default="")
+    prospect = models.ForeignKey(Prospect, on_delete=models.CASCADE, default="")
 
     class Meta:
         abstract = True
@@ -54,7 +54,7 @@ class Service(models.Model):
     name = models.CharField(max_length=64, default="")
     unit = models.CharField(max_length=12, default="")
     rate = models.CharField(max_length=16, default="")
-    prospect = models.ManyToManyField(Prospect, default="")
+    prospect = models.ForeignKey(Prospect, default="", on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
