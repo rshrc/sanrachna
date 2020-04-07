@@ -7,15 +7,15 @@ from rest_framework import generics
 
 
 class VendorListAPIView(generics.ListCreateAPIView):
-    queryset = models.Vendor
+    queryset = models.Vendor.objects.all()
     serializer_class = serializers.VendorSerializer
 
 
 class LabourListAPIView(generics.ListCreateAPIView):
-    queryset = models.Labour
+    queryset = models.Labour.objects.all()
     serializer_class = serializers.LabourSerializer
 
 
 class SupervisorListAPIView(generics.ListCreateAPIView):
-    queryset = models.Supervisor
+    queryset = models.Supervisor.objects.all()
     serializer_class = serializers.SupervisorSerializer

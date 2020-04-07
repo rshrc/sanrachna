@@ -1,0 +1,61 @@
+// http://localhost:8000/api/prospect/list/
+
+[
+    {
+        "full_name": "Rishi Banerjee",
+        "organization": "Google",
+        "email": "rishieric91@gmail.com",
+        "mobile_number": "6350421681",
+        "site_type": "COMMERCIAL",
+        "source_type": "ONLINE"
+    }
+]
+
+
+// http://localhost:8000/api/database/material/tiles/  {tiles => paint, civil etc}
+
+[
+    {
+        "sno": "1",
+        "particulars": "Tile Material Particular",
+        "quantity": "30",
+        "unit": "SQT",
+        "rate": "400",
+        "prospect": 1
+    }
+]
+
+// http://localhost:8000/api/database/service/
+
+[
+    {
+        "name": "Painting",
+        "unit": "400",
+        "rate": "300",
+        "prospect": 1
+    }
+]
+
+// http://localhost:8000/admin/clientele/client/ #/lead #/prospect
+
+[
+    {
+        "full_name": "Devasish",
+        "organization": "Hackerkernel",
+        "email": "devaisish.saxena@gmail.com",
+        "mobile_number": "8926192638",
+        "site_type": "COMMERCIAL",
+        "source_type": "ONLINE"
+    }
+]
+
+// http://localhost:8000/api/associate/vendor/ #/labour #/supervisor
+
+[
+    {
+        "full_name": "Pratik Jain",
+        "organization": "Hypervisor",
+        "mobile_number": "7318879945",
+        "email": "pratikjain0411@gmail.com"
+    }
+]
