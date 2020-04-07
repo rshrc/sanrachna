@@ -1,0 +1,415 @@
+[
+    {
+        "name": "DESIGNING 2D",
+        "sub_service": null,
+        "unit": "SQ FT",
+        "rate": 10
+    },
+    {
+        "name": "DESIGNING 3D",
+        "sub_service": null,
+        "unit": "SQ FT",
+        "rate": 10
+    },
+    {
+        "name": "FALSE CEILING",
+        "sub_service": [
+            {
+                "name": "FALSE CEILING GYPSUM",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "FALSE CEILING POP",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "FALSE CEILING 2X2 PANELS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "FALSE CEILING SUNMICA WOODEN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "FALSE CEILING VENEER WOODEN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "FALSE CEILING NATURAL WOOD",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "FLOORING",
+        "sub_service": [
+            {
+                "name": "TILES LABOUR ONLY",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TILES LABOUR WITH CIVIL MATERIALS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TILES LABOUR WITH COMPLETE MATERIALS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "GRANITE LABOUR ONLY",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "ITALIAN LABOUR ONLY",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "WOODEN FLOORING LAMINATE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "WOODEN FLOORING NATURAL",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "FURNITURE"
+    },
+    {
+        "name": "ENTRY LEVEL",
+        "sub_service": [
+            {
+                "name": "WARDROBE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TV UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PAELLING DOOR, WINDOW, WALLS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "KITCHEN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "BED",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SOFA",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE SHELF TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE 3FT W X 2.5 FT H",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CROCKERY UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TEMPLE SUNMICA TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CENTRE TABLE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "DOOR",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "PREMIUM VENEER",
+        "sub_service": [
+            {
+                "name": "WARDROBE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TV UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PAELLING DOOR, WINDOW, WALLS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "KITCHEN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "BED HYDRAULIC TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SOFA",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE SHELF TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE 3FT W X 2.5 FT H",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CROCKERY UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TEMPLE SUNMICA TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CENTRE TABLE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "DOOR",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "LUXURY- WITH BRANDED HARDWARE/ PU FINISH AND LUXURY ACCESSORIES",
+        "sub_service": [
+            {
+                "name": "WARDROBE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TV UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PAELLING DOOR, WINDOW, WALLS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "KITCHEN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "BED HYDRAULIC TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SOFA",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE SHELF TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "STUDY TABLE 3FT W X 2.5 FT H",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CROCKERY UNIT",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "TEMPLE SUNMICA TYPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CENTRE TABLE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "DOOR NATURAL TEAK"
+            }
+        ]
+    },
+    {
+        "name": "PAINTING",
+        "sub_service": [
+            {
+                "name": "ENTRY LEVEL",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PREMIUM",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "LUXURY",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "POLISH",
+        "sub_service": [
+            {
+                "name": "MELAMYNE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PU INTERIOR",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PU EXTERIOR",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "DUCO",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "LAMINATION",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "ELECTRIFICATION",
+        "sub_service": [
+            {
+                "name": "ENTRY LEVEL",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "PREMIUM",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "LUXURY",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "EARTHING WORKS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "NEW CABLE INSTALLATION",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "CCTV CABLING ONLY",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "AC COPPER PIPE AND INSULATED CABLING",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "AC INSTALLATION",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    },
+    {
+        "name": "FABRICATION",
+        "sub_service": [
+            {
+                "name": "SHED WITH ACRYLIC SHEETS",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SHED WITH G I SHEET",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "GRILLS/ RAILINGS PIPE",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "GRILLS/RAILING ANGLE/PATTI",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SS RAILING WITHOUT GLASS PLAIN",
+                "unit": "SQ FT",
+                "rate": 10
+            },
+            {
+                "name": "SS RAILING WITH GLASS PLAIN",
+                "unit": "SQ FT",
+                "rate": 10
+            }
+        ]
+    }
+]

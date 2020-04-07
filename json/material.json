@@ -1,0 +1,1635 @@
+{
+    "ply_material": [
+        {
+            "sno": 6,
+            "particulars": "20\" channel soft close",
+            "qty": 10,
+            "unit": "set"
+        },
+        {
+            "sno": 7,
+            "particulars": "profile handle",
+            "qty": 37,
+            "unit": "ft"
+        },
+        {
+            "sno": 8,
+            "particulars": "connector screw 1\"",
+            "qty": 50,
+            "unit": "pcs"
+        },
+        {
+            "sno": 26,
+            "particulars": "fevicole",
+            "qty": 20,
+            "unit": "kg"
+        },
+        {
+            "sno": 27,
+            "particulars": "pro bond",
+            "qty": 3,
+            "unit": "kg"
+        },
+        {
+            "sno": 28,
+            "particulars": "19x6 screw star shape",
+            "qty": 100,
+            "unit": "pcs"
+        },
+        {
+            "sno": 29,
+            "particulars": "22x6 bidding",
+            "qty": 100,
+            "unit": "ft"
+        },
+        {
+            "sno": 30,
+            "particulars": "profile handle",
+            "qty": 14,
+            "unit": "ft"
+        },
+        {
+            "sno": 1,
+            "particulars": "pu sillar",
+            "qty": 4,
+            "unit": "litre"
+        },
+        {
+            "sno": 2,
+            "particulars": "melamyne glossy",
+            "qty": 4,
+            "unit": "litre"
+        },
+        {
+            "sno": 3,
+            "particulars": "melamyne meet",
+            "qty": 4,
+            "unit": "litre"
+        }
+    ],
+    "paint_material": [
+        {
+            "sno": 10,
+            "particulars": "l136 royal paint",
+            "qty": 10,
+            "unit": "litre"
+        },
+        {
+            "sno": 28,
+            "particulars": "regmal 220no.",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 10
+        },
+        {
+            "sno": 29,
+            "particulars": "cloth",
+            "qty": 2,
+            "unit": "m",
+            "rate": 20
+        },
+        {
+            "particulars": "pop",
+            "qty": 5,
+            "unit": "kg",
+            "rate": 12
+        },
+        {
+            "sno": 1,
+            "particulars": "chowk cook",
+            "qty": 3
+        },
+        {
+            "sno": 2,
+            "particulars": "amber+ ravsena+vansena",
+            "qty": 7,
+            "unit": "nos"
+        },
+        {
+            "sno": 3,
+            "particulars": "regmall roll 80 no",
+            "qty": 2,
+            "unit": "m"
+        },
+        {
+            "sno": 4,
+            "particulars": "regmall 100 no",
+            "qty": 36,
+            "unit": "nos"
+        },
+        {
+            "sno": 5,
+            "particulars": "regmall red 220 no",
+            "qty": 36,
+            "unit": "nos"
+        },
+        {
+            "sno": 6,
+            "particulars": "regmall 3 mm 320nos",
+            "qty": 24,
+            "unit": "nos"
+        },
+        {
+            "sno": 7,
+            "particulars": "abro tap",
+            "qty": 2,
+            "unit": "boundle"
+        },
+        {
+            "sno": 8,
+            "particulars": "cloth",
+            "qty": 20,
+            "unit": "m"
+        },
+        {
+            "sno": 9,
+            "particulars": "dana",
+            "qty": 10,
+            "unit": "nos"
+        },
+        {
+            "sno": 10,
+            "particulars": "thinner mehaik",
+            "qty": 30,
+            "unit": "litre"
+        },
+        {
+            "sno": 11,
+            "particulars": "sillar vamle",
+            "qty": 6,
+            "unit": "litre"
+        },
+        {
+            "sno": 12,
+            "particulars": "sillar melamine",
+            "qty": 8,
+            "unit": "litre"
+        },
+        {
+            "sno": 13,
+            "particulars": "stainer black",
+            "qty": 100,
+            "unit": "gm"
+        },
+        {
+            "sno": 14,
+            "particulars": "polister puytty",
+            "qty": 1,
+            "unit": "kg"
+        },
+        {
+            "sno": 15,
+            "particulars": "surfacer white",
+            "qty": 8,
+            "unit": "litre"
+        },
+        {
+            "sno": 16,
+            "particulars": "nc putty",
+            "qty": 4,
+            "unit": "litre"
+        },
+        {
+            "sno": 1,
+            "particulars": "nc thinner",
+            "qty": 20,
+            "unit": "litre",
+            "rate": 1900
+        },
+        {
+            "sno": 2,
+            "particulars": "melamyne thinner",
+            "qty": 5,
+            "unit": "litre",
+            "rate": 1080
+        },
+        {
+            "sno": 3,
+            "particulars": "sealer vemle",
+            "qty": 2,
+            "unit": "litre",
+            "rate": 480
+        },
+        {
+            "sno": 1,
+            "particulars": "putti",
+            "qty": 5,
+            "unit": "kg",
+            "rate": 25
+        },
+        {
+            "sno": 2,
+            "particulars": "abrotape",
+            "qty": 1,
+            "unit": "pc",
+            "rate": 20
+        },
+        {
+            "sno": 1,
+            "particulars": "melamine",
+            "qty": 1,
+            "unit": "ltr",
+            "rate": 280
+        },
+        {
+            "sno": 2,
+            "particulars": "m 501 royal",
+            "qty": 3,
+            "unit": "ltr",
+            "rate": 715
+        },
+        {
+            "sno": 1,
+            "particulars": "grinder patta",
+            "qty": 1,
+            "unit": "pic",
+            "rate": 45
+        },
+        {
+            "sno": 2,
+            "particulars": "tarpen",
+            "qty": 1,
+            "unit": "ltr",
+            "rate": 60
+        },
+        {
+            "sno": 1,
+            "particulars": "pop",
+            "qty": 20,
+            "unit": "kg",
+            "rate": 10
+        },
+        {
+            "sno": 1,
+            "particulars": "putti",
+            "qty": 5,
+            "unit": "kg",
+            "rate": 25
+        }
+    ],
+    "plumbing_material": [
+        {
+            "sno": 1,
+            "particulars": "m.a.b.t 3/4\"x1/2\"(cpvc)",
+            "qty": 4,
+            "unit": "nos"
+        },
+        {
+            "sno": 2,
+            "particulars": "albow 3/4 (cpvc)",
+            "qty": 18,
+            "unit": "nos"
+        },
+        {
+            "sno": 3,
+            "particulars": "pipe 3/4 (cpvc)",
+            "qty": 3,
+            "unit": "nos"
+        },
+        {
+            "sno": 4,
+            "particulars": "taplon tap",
+            "qty": 5,
+            "unit": "nos"
+        },
+        {
+            "sno": 5,
+            "particulars": "pipe3\"(pvc)",
+            "qty": 2,
+            "unit": "nos"
+        },
+        {
+            "sno": 6,
+            "particulars": "solvent 500 ml (pvc)",
+            "qty": 1,
+            "unit": "nos"
+        },
+        {
+            "sno": 7,
+            "particulars": "pipe 3/4",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 170
+        },
+        {
+            "sno": 8,
+            "particulars": "elbow 3/4",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 9,
+            "particulars": "brass elbow 3/4x1/2",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 45
+        },
+        {
+            "sno": 10,
+            "particulars": "mabt 3/4x1/2",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 75
+        },
+        {
+            "sno": 11,
+            "particulars": "socket3/4",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 12,
+            "particulars": "teplon tap",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 30
+        },
+        {
+            "sno": 13,
+            "particulars": "solvent 118",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 180
+        },
+        {
+            "sno": 14,
+            "particulars": "b nent",
+            "unit": "gm",
+            "rate": 50
+        },
+        {
+            "sno": 15,
+            "particulars": "fabt3/4x3/4",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 75
+        },
+        {
+            "sno": 16,
+            "particulars": "CPVC 50gr solvent",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 90
+        },
+        {
+            "sno": 17,
+            "particulars": "tap lon tap",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 30
+        },
+        {
+            "sno": 18,
+            "particulars": "cpvc 3/4 elbow",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 19,
+            "particulars": "socket 3/4",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 20,
+            "particulars": "fabt3/4x1/2",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 75
+        },
+        {
+            "sno": 21,
+            "particulars": "45* elbow",
+            "qty": 3,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 22,
+            "particulars": "nw",
+            "qty": 400,
+            "unit": "gm"
+        },
+        {
+            "sno": 23,
+            "particulars": "cack rech",
+            "qty": 5,
+            "rate": 250
+        },
+        {
+            "sno": 24,
+            "particulars": "west pipe",
+            "qty": 1,
+            "rate": 60
+        },
+        {
+            "sno": 25,
+            "particulars": "cp nipple 1\"",
+            "qty": 4,
+            "rate": 60
+        },
+        {
+            "sno": 26,
+            "particulars": "cp nipple 1.5\"",
+            "qty": 4,
+            "rate": 70
+        },
+        {
+            "sno": 27,
+            "particulars": "cp nipple 2\"",
+            "qty": 4,
+            "rate": 90
+        },
+        {
+            "sno": 28,
+            "particulars": "aqua grand tee",
+            "qty": 1,
+            "rate": 350
+        },
+        {
+            "sno": 29,
+            "particulars": "cp plug 1/2",
+            "qty": 1,
+            "rate": 60
+        },
+        {
+            "sno": 30,
+            "particulars": "flang",
+            "qty": 12,
+            "rate": 25
+        },
+        {
+            "sno": 31,
+            "particulars": "tap lon tap",
+            "qty": 6,
+            "rate": 30
+        },
+        {
+            "sno": 19,
+            "particulars": "collar pvc 4\"",
+            "qty": 3,
+            "unit": "pcs",
+            "rate": 60
+        },
+        {
+            "sno": 20,
+            "particulars": "band 4\"",
+            "qty": 3,
+            "unit": "pcs",
+            "rate": 80
+        },
+        {
+            "sno": 21,
+            "particulars": "plug band 4'",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 95
+        },
+        {
+            "sno": 22,
+            "particulars": "pluck tee 4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 135
+        },
+        {
+            "sno": 23,
+            "particulars": "tee 4x3",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 115
+        },
+        {
+            "sno": 24,
+            "particulars": "tee 4x3",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 115
+        },
+        {
+            "sno": 25,
+            "particulars": "nali trap 3\"",
+            "qty": 5,
+            "unit": "pcs",
+            "rate": 65
+        },
+        {
+            "sno": 26,
+            "particulars": "plane band 3\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 50
+        },
+        {
+            "sno": 27,
+            "particulars": "plane tee 3\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 75
+        },
+        {
+            "sno": 28,
+            "particulars": "elbow1.25\"",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 12
+        },
+        {
+            "sno": 29,
+            "particulars": "collar 3\"",
+            "qty": 3,
+            "unit": "pcs",
+            "rate": 40
+        },
+        {
+            "sno": 30,
+            "particulars": "pipe cpvc 3/4\"",
+            "qty": 12,
+            "unit": "pcss",
+            "rate": 170
+        },
+        {
+            "sno": 31,
+            "particulars": "socket 3/4\"",
+            "qty": 5,
+            "unit": "pcs",
+            "rate": 12
+        },
+        {
+            "sno": 32,
+            "particulars": "elbow 3/4\"",
+            "qty": 12,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 33,
+            "particulars": "brass elbow 3/4x1/2",
+            "qty": 8,
+            "unit": "pcs",
+            "rate": 45
+        },
+        {
+            "sno": 34,
+            "particulars": "mabt 3/4x1/2",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 75
+        },
+        {
+            "sno": 35,
+            "particulars": "unian 1/4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 140
+        },
+        {
+            "sno": 36,
+            "particulars": "tenk nipple 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 90
+        },
+        {
+            "sno": 37,
+            "particulars": "wall 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 380
+        },
+        {
+            "sno": 38,
+            "particulars": "uniun 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 95
+        },
+        {
+            "sno": 39,
+            "particulars": "wall cock 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 550
+        },
+        {
+            "sno": 40,
+            "particulars": "up ream w/b top",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 950
+        },
+        {
+            "sno": 41,
+            "particulars": "weast coupling",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 180
+        },
+        {
+            "sno": 42,
+            "particulars": "weast pipe",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 50
+        },
+        {
+            "sno": 43,
+            "particulars": "pipe 20mm",
+            "qty": 12,
+            "unit": "pcs",
+            "rate": 179
+        },
+        {
+            "sno": 44,
+            "particulars": "elbow20mm",
+            "qty": 48,
+            "unit": "pcs",
+            "rate": 10
+        },
+        {
+            "sno": 45,
+            "particulars": "tee 20mm",
+            "qty": 21,
+            "unit": "pcs",
+            "rate": 17
+        },
+        {
+            "sno": 46,
+            "particulars": "socket 20mm",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 14
+        },
+        {
+            "sno": 47,
+            "particulars": "by pass band 20mm",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 52
+        },
+        {
+            "sno": 48,
+            "particulars": "mtab 25mm",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 168
+        },
+        {
+            "sno": 49,
+            "particulars": "bush 25x20",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 11
+        },
+        {
+            "sno": 50,
+            "particulars": "ftab 20x15",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 43
+        },
+        {
+            "sno": 51,
+            "particulars": "elbow p 20x15",
+            "qty": 30,
+            "unit": "pcs",
+            "rate": 13
+        },
+        {
+            "sno": 52,
+            "particulars": "solvent 100mm",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 149
+        },
+        {
+            "sno": 53,
+            "particulars": "plug1/2\"",
+            "qty": 24,
+            "unit": "pcs",
+            "rate": 10
+        },
+        {
+            "sno": 54,
+            "particulars": "taplon tap",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 16
+        },
+        {
+            "sno": 55,
+            "particulars": "pipe swr 4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 453
+        },
+        {
+            "sno": 56,
+            "particulars": "pipe swr 3\"",
+            "qty": 3,
+            "unit": "ps",
+            "rate": 252
+        },
+        {
+            "sno": 57,
+            "particulars": "band 4\"",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 92
+        },
+        {
+            "sno": 58,
+            "particulars": "band 3\"",
+            "qty": 8,
+            "unit": "pcs",
+            "rate": 44
+        },
+        {
+            "sno": 59,
+            "particulars": "tee 3\"",
+            "qty": 5,
+            "unit": "pcs",
+            "rate": 62
+        },
+        {
+            "sno": 60,
+            "particulars": "couplker 4\"",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 64
+        },
+        {
+            "sno": 61,
+            "particulars": "coupler 3\"",
+            "qty": 8,
+            "unit": "pcs",
+            "rate": 37
+        },
+        {
+            "sno": 62,
+            "particulars": "n trap 3\"",
+            "qty": 7,
+            "unit": "pcs",
+            "rate": 93
+        },
+        {
+            "sno": 63,
+            "particulars": "band 4\"",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 74
+        },
+        {
+            "sno": 64,
+            "particulars": "band 45 d 3\"",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 36
+        },
+        {
+            "sno": 65,
+            "particulars": "pvc pipe 40 mm",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 208
+        },
+        {
+            "sno": 66,
+            "particulars": "elbow 40mm",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 15
+        },
+        {
+            "sno": 67,
+            "particulars": "ast 50 solvent",
+            "qty": 5,
+            "unit": "pcs",
+            "rate": 72
+        },
+        {
+            "sno": 68,
+            "particulars": "ftac b 20x15",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 43
+        },
+        {
+            "sno": 69,
+            "particulars": "band kill 2\"",
+            "qty": 1,
+            "unit": "kg",
+            "rate": 90
+        },
+        {
+            "sno": 70,
+            "particulars": "pipe clip 20mm",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 8
+        },
+        {
+            "sno": 71,
+            "particulars": "end cap 20mm",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 7
+        },
+        {
+            "sno": 72,
+            "particulars": "083 stop cock",
+            "qty": 1,
+            "unit": "nos"
+        },
+        {
+            "sno": 73,
+            "particulars": "pipe 3/4",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 74,
+            "particulars": "elbow 3/4",
+            "qty": 6,
+            "unit": "pcs"
+        },
+        {
+            "sno": 75,
+            "particulars": "brass elbow 3/4x1/2",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 76,
+            "particulars": "mabt",
+            "qty": 2,
+            "unit": "pcs"
+        },
+        {
+            "sno": 77,
+            "particulars": "socket 3/4",
+            "qty": 2,
+            "unit": "pcs"
+        },
+        {
+            "sno": 78,
+            "particulars": "taplon tap",
+            "qty": 2,
+            "unit": "pcs"
+        },
+        {
+            "sno": 79,
+            "particulars": "solvent 118",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 80,
+            "particulars": "b nant"
+        },
+        {
+            "sno": 81,
+            "particulars": "fabt 3/4x3/4",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 82,
+            "particulars": "rack bold wall",
+            "qty": 1,
+            "rate": 600
+        },
+        {
+            "sno": 83,
+            "particulars": "hung seat",
+            "qty": 2,
+            "rate": 70
+        },
+        {
+            "sno": 84,
+            "particulars": "w/p cumm",
+            "qty": 1,
+            "rate": 90
+        },
+        {
+            "sno": 85,
+            "particulars": "8 no.1/2\" pipe"
+        },
+        {
+            "sno": 86,
+            "particulars": "brass elbow",
+            "qty": 30,
+            "unit": "pcs",
+            "rate": 33
+        },
+        {
+            "sno": 87,
+            "particulars": "pipe cpvc 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 260
+        },
+        {
+            "sno": 88,
+            "particulars": "fabt 1\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 150
+        },
+        {
+            "sno": 89,
+            "particulars": "bush 1x1/4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 45
+        },
+        {
+            "sno": 90,
+            "particulars": "wall 1/4\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 550
+        },
+        {
+            "sno": 91,
+            "particulars": "1/4\" tank nipple",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 150
+        },
+        {
+            "sno": 92,
+            "particulars": "cpvc pipe 1/4\"",
+            "qty": 15,
+            "unit": "pcs",
+            "rate": 340
+        },
+        {
+            "sno": 93,
+            "particulars": "elbow 1/4\"",
+            "qty": 18,
+            "unit": "pcs",
+            "rate": 45
+        },
+        {
+            "sno": 94,
+            "particulars": "socket 1/4\"",
+            "qty": 18,
+            "unit": "pcs",
+            "rate": 26
+        },
+        {
+            "sno": 95,
+            "particulars": "tee 1/4\"",
+            "qty": 4,
+            "unit": "pcs",
+            "rate": 55
+        },
+        {
+            "sno": 96,
+            "particulars": "union 1/4\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 100
+        },
+        {
+            "sno": 97,
+            "particulars": "tank nipple 1/4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 80
+        },
+        {
+            "sno": 98,
+            "particulars": "bush 1/4\"x3/4\"",
+            "qty": 3,
+            "unit": "pcs",
+            "rate": 25
+        },
+        {
+            "sno": 99,
+            "particulars": "mabt 1/4\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 300
+        },
+        {
+            "sno": 100,
+            "particulars": "fabt 1/4\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 300
+        },
+        {
+            "sno": 101,
+            "particulars": "clamp 1/4\"",
+            "qty": 18,
+            "unit": "pcs",
+            "rate": 10
+        },
+        {
+            "sno": 102,
+            "particulars": "bomay jail",
+            "qty": 1,
+            "unit": "kg",
+            "rate": 80
+        },
+        {
+            "sno": 103,
+            "particulars": "end cap 1/4\"",
+            "qty": 2,
+            "unit": "pcs",
+            "rate": 25
+        },
+        {
+            "sno": 104,
+            "particulars": "taplon tap",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 25
+        },
+        {
+            "sno": 105,
+            "particulars": "rc couple 3\"",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 35
+        },
+        {
+            "sno": 106,
+            "particulars": "elbow",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 25
+        },
+        {
+            "sno": 1,
+            "particulars": "pvc 4\"",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 290
+        },
+        {
+            "sno": 2,
+            "particulars": "pvc pit 3\"",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 190
+        },
+        {
+            "sno": 3,
+            "particulars": "door tee 4\"",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 160
+        },
+        {
+            "sno": 4,
+            "particulars": "door tee 3\"",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 95
+        },
+        {
+            "sno": 5,
+            "particulars": "door bandf 4\"",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 135
+        },
+        {
+            "sno": 6,
+            "particulars": "door band 3\"",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 85
+        },
+        {
+            "sno": 7,
+            "particulars": "pvc tee 3'",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 80
+        },
+        {
+            "sno": 8,
+            "particulars": "n trap",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 95
+        },
+        {
+            "sno": 9,
+            "particulars": "shee 4\"",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 90
+        },
+        {
+            "sno": 10,
+            "particulars": "shoe 3\"",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 55
+        },
+        {
+            "sno": 11,
+            "particulars": "clamp 4\"",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 40
+        },
+        {
+            "sno": 12,
+            "particulars": "clamp 3\"",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 17
+        },
+        {
+            "sno": 13,
+            "particulars": "tasplon tap",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 20
+        },
+        {
+            "sno": 14,
+            "particulars": "band 3\"",
+            "qty": 3,
+            "unit": "nos",
+            "rate": 60
+        },
+        {
+            "sno": 15,
+            "particulars": "band 4\"",
+            "qty": 3,
+            "unit": "nos",
+            "rate": 100
+        },
+        {
+            "sno": 16,
+            "particulars": "socket ply 4\""
+        },
+        {
+            "sno": 17,
+            "particulars": "ph 3\""
+        },
+        {
+            "sno": 18,
+            "particulars": "div body",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 19,
+            "particulars": "concaled body",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 20,
+            "particulars": "cons tank",
+            "qty": 1,
+            "unit": "nos"
+        },
+        {
+            "sno": 21,
+            "particulars": "cons stop cock",
+            "qty": 1,
+            "unit": "nos"
+        },
+        {
+            "sno": 22,
+            "particulars": "gst"
+        },
+        {
+            "sno": 23,
+            "particulars": "fta b20x15",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 43
+        },
+        {
+            "sno": 24,
+            "particulars": "bombay kill 2\"",
+            "qty": 1,
+            "unit": "pcs",
+            "rate": 90
+        },
+        {
+            "sno": 25,
+            "particulars": "pipe clip 20mm",
+            "qty": 6,
+            "unit": "pcs",
+            "rate": 8
+        },
+        {
+            "sno": 26,
+            "particulars": "end cap 20 mm",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 7
+        },
+        {
+            "sno": 27,
+            "particulars": "pipe 20 mm",
+            "qty": 12,
+            "unit": "nos",
+            "rate": 179
+        },
+        {
+            "sno": 28,
+            "particulars": "elbow 20 mm",
+            "qty": 48,
+            "unit": "nos",
+            "rate": 10
+        },
+        {
+            "sno": 29,
+            "particulars": "tee 20 mm",
+            "qty": 21,
+            "unit": "nos",
+            "rate": 17
+        },
+        {
+            "sno": 30,
+            "particulars": "socket 20 mm",
+            "qty": 12,
+            "unit": "nos",
+            "rate": 8
+        },
+        {
+            "sno": 31,
+            "particulars": "elbow 20 mm",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 14
+        },
+        {
+            "sno": 32,
+            "particulars": "by pass end 20mm",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 52
+        },
+        {
+            "sno": 33,
+            "particulars": "fta 25 mm",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 168
+        },
+        {
+            "sno": 34,
+            "particulars": "bush 25x20",
+            "qty": 2,
+            "unit": "nos",
+            "rate": 11
+        },
+        {
+            "sno": 35,
+            "particulars": "fta 20x15",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 43
+        },
+        {
+            "sno": 36,
+            "particulars": "elbow 20x15",
+            "qty": 30,
+            "unit": "nos",
+            "rate": 13
+        },
+        {
+            "sno": 37,
+            "particulars": "solvent 100 ml",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 149
+        },
+        {
+            "sno": 38,
+            "particulars": "plug 1/2\"",
+            "qty": 24,
+            "unit": "nos",
+            "rate": 10
+        },
+        {
+            "sno": 39,
+            "particulars": "taplon tap",
+            "qty": 10,
+            "unit": "pcs",
+            "rate": 16
+        },
+        {
+            "sno": 40,
+            "particulars": "pvc pipe 4\"",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 453
+        },
+        {
+            "sno": 41,
+            "particulars": "pipe swr 3\"",
+            "qty": 3,
+            "unit": "nos",
+            "rate": 252
+        },
+        {
+            "sno": 42,
+            "particulars": "band 4\"",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 92
+        },
+        {
+            "sno": 43,
+            "particulars": "band 3\"",
+            "qty": 8,
+            "unit": "nos",
+            "rate": 44
+        },
+        {
+            "sno": 44,
+            "particulars": "tee3\"",
+            "qty": 5,
+            "unit": "nos",
+            "rate": 62
+        },
+        {
+            "sno": 45,
+            "particulars": "coupler 4\"",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 64
+        },
+        {
+            "sno": 46,
+            "particulars": "coupler 3\"",
+            "qty": 8,
+            "unit": "nos",
+            "rate": 37
+        },
+        {
+            "sno": 47,
+            "particulars": "n trap 3\"",
+            "qty": 7,
+            "unit": "nos",
+            "rate": 93
+        },
+        {
+            "sno": 48,
+            "particulars": "band 4\"",
+            "qty": 4,
+            "unit": "nos",
+            "rate": 74
+        },
+        {
+            "sno": 49,
+            "particulars": "band 3\"",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 36
+        },
+        {
+            "sno": 50,
+            "particulars": "pvc 40 mm",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 208
+        },
+        {
+            "sno": 51,
+            "particulars": "elbow 40 mm",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 15
+        },
+        {
+            "sno": 52,
+            "particulars": "ast solvent 200 ml",
+            "qty": 5,
+            "unit": "nos",
+            "rate": 72
+        },
+        {
+            "sno": 1,
+            "particulars": "west pipe wash basin",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 2,
+            "particulars": "chrome west pipe",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 3,
+            "particulars": "taplon tap",
+            "qty": 6,
+            "unit": "pcs"
+        },
+        {
+            "sno": 4,
+            "particulars": "nozzle cock",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 5,
+            "particulars": "cockroj jali",
+            "qty": 4,
+            "unit": "box"
+        },
+        {
+            "sno": 6,
+            "particulars": "west coupling",
+            "qty": 1,
+            "unit": "pcs"
+        },
+        {
+            "sno": 7,
+            "particulars": "cp nipple 1\"4",
+            "qty": 4,
+            "unit": "pcs"
+        }
+    ],
+    "electric_material": [
+        {
+            "sno": 24,
+            "particulars": "1x1 copper plate"
+        },
+        {
+            "sno": 25,
+            "particulars": "raw coal",
+            "qty": 20,
+            "unit": "kg"
+        },
+        {
+            "sno": 26,
+            "particulars": "8 no. copper wire",
+            "qty": 20,
+            "unit": "ft"
+        },
+        {
+            "sno": 27,
+            "particulars": "khada namak",
+            "qty": 15,
+            "unit": "kg"
+        },
+        {
+            "sno": 28,
+            "particulars": "3/4\" pipe",
+            "qty": 3,
+            "unit": "pcs"
+        },
+        {
+            "sno": 29,
+            "particulars": "20 mm saddle",
+            "qty": 12,
+            "unit": "pcs"
+        },
+        {
+            "sno": 30,
+            "particulars": "nut bolt of brass 1.5\"",
+            "qty": 2,
+            "unit": "pcs"
+        },
+        {
+            "sno": 31,
+            "particulars": "4 mm wire",
+            "qty": 20,
+            "unit": "ft"
+        },
+        {
+            "sno": 32,
+            "particulars": "mcb tpn box",
+            "qty": 1,
+            "unit": "nos",
+            "rate": 975
+        },
+        {
+            "sno": 33,
+            "particulars": "bend",
+            "qty": 6,
+            "unit": "nos",
+            "rate": 1
+        },
+        {
+            "sno": 34,
+            "particulars": "flexible pipe",
+            "qty": 5,
+            "unit": "mtrs",
+            "rate": 10
+        },
+        {
+            "sno": 35,
+            "particulars": "coal",
+            "qty": 25,
+            "unit": "kg",
+            "rate": 15
+        },
+        {
+            "sno": 36,
+            "particulars": "salt",
+            "qty": 30,
+            "unit": "kg",
+            "rate": 10
+        }
+    ],
+    "tiles_material": [
+        {
+            "sno": 7,
+            "particulars": "adhesive",
+            "qty": 4,
+            "unit": "bag"
+        },
+        {
+            "sno": 55,
+            "particulars": "putty",
+            "qty": 1,
+            "unit": "bag",
+            "rate": 800
+        }
+    ],
+    "civil_material": [
+        {
+            "sno": 1,
+            "particulars": "bricks",
+            "qty": 50,
+            "unit": "pcs",
+            "rate": 6.6
+        },
+        {
+            "sno": 2,
+            "particulars": "gitti",
+            "qty": 5,
+            "rate": 20
+        },
+        {
+            "sno": 3,
+            "particulars": "cement",
+            "qty": 2,
+            "unit": "bag",
+            "rate": 310
+        },
+        {
+            "sno": 1,
+            "particulars": "sand",
+            "qty": 30,
+            "unit": "ft",
+            "rate": 50
+        },
+        {
+            "sno": 2,
+            "particulars": "cement",
+            "qty": 4,
+            "unit": "bag",
+            "rate": 300
+        },
+        {
+            "sno": 3,
+            "particulars": "cement",
+            "qty": 1,
+            "unit": "bag",
+            "rate": 320
+        },
+        {
+            "sno": 4,
+            "particulars": "acc cement",
+            "qty": 1,
+            "unit": "bag",
+            "rate": 320
+        },
+        {
+            "sno": 46,
+            "particulars": "cement",
+            "qty": 3,
+            "unit": "bag",
+            "rate": 320
+        },
+        {
+            "sno": 47,
+            "particulars": "sand",
+            "qty": 4,
+            "rate": 40
+        },
+        {
+            "sno": 48,
+            "particulars": "cement",
+            "qty": 1,
+            "unit": "bag",
+            "rate": 320
+        },
+        {
+            "sno": 49,
+            "particulars": "bricks"
+        }
+    ]
+}
