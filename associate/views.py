@@ -11,11 +11,26 @@ class VendorListAPIView(generics.ListCreateAPIView):
     serializer_class = serializers.VendorSerializer
 
 
+class VendorDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.Vendor.objects.all()
+    serializer_class = serializers.VendorSerializer
+
+
 class LabourListAPIView(generics.ListCreateAPIView):
     queryset = models.Labour.objects.all()
     serializer_class = serializers.LabourSerializer
 
 
+class LabourDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.Labour.objects.all()
+    serializer_class = serializers.LabourSerializer
+
+
 class SupervisorListAPIView(generics.ListCreateAPIView):
+    queryset = models.Supervisor.objects.all()
+    serializer_class = serializers.SupervisorSerializer
+
+
+class SupervisorDestroyAPIView(generics.DestroyAPIView):
     queryset = models.Supervisor.objects.all()
     serializer_class = serializers.SupervisorSerializer
