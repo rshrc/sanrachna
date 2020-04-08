@@ -12,7 +12,17 @@ class PlyMaterialListAPIView(generics.ListCreateAPIView):
     serializer_class = serializers.PlyMaterialSerializer
 
 
+class PlyMaterialDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.PlyMaterial.objects.all()
+    serializer_class = serializers.PlyMaterialSerializer
+
+
 class PaintMaterialListAPIView(generics.ListCreateAPIView):
+    queryset = models.PaintMaterial.objects.all()
+    serializer_class = serializers.PaintMaterialSerializer
+
+
+class PaintMaterialDestroyAPIView(generics.DestroyAPIView):
     queryset = models.PaintMaterial.objects.all()
     serializer_class = serializers.PaintMaterialSerializer
 
@@ -22,7 +32,17 @@ class PlumbingMaterialListAPIView(generics.ListCreateAPIView):
     serializer_class = serializers.PlumbingMaterialSerializer
 
 
+class PlumbingMaterialDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.PlumbingMaterial.objects.all()
+    serializer_class = serializers.PlumbingMaterialSerializer
+
+
 class ElectricMaterialListAPIView(generics.ListCreateAPIView):
+    queryset = models.ElectricMaterial.objects.all()
+    serializer_class = serializers.ElectricMaterialSerializer
+
+
+class ElectricMaterialDestroyAPIView(generics.DestroyAPIView):
     queryset = models.ElectricMaterial.objects.all()
     serializer_class = serializers.ElectricMaterialSerializer
 
@@ -32,7 +52,17 @@ class TilesMaterialListAPIView(generics.ListCreateAPIView):
     serializer_class = serializers.TilesMaterialSerializer
 
 
+class TilesMaterialDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.TilesMaterial.objects.all()
+    serializer_class = serializers.TilesMaterialSerializer
+
+
 class CivilMaterialListAPIView(generics.ListCreateAPIView):
+    queryset = models.CivilMaterial.objects.all()
+    serializer_class = serializers.CivilMaterialSerializer
+
+
+class CivilMaterialDestroyAPIView(generics.DestroyAPIView):
     queryset = models.CivilMaterial.objects.all()
     serializer_class = serializers.CivilMaterialSerializer
 
