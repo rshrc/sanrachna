@@ -36,4 +36,4 @@ PROSPECT_TYPES = (
 MATERIAL_FIELDS = ['sno', 'particulars', 'quantity', 'unit', 'rate', 'prospect']
 SERVICE_FIELDS = ['name', 'unit', 'rate', 'prospect']
 PROSPECT_FIELDS = ['full_name', 'organization', 'email', 'mobile_number', 'site_type', 'source_type']
-ASSOCIATE_FIELDS = ['full_name', 'organization', 'mobile_number', 'email']
+ASSOCIATE_FIELDS = ['pk', 'full_name', 'organization', 'mobile_number', 'email']
