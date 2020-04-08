@@ -9,3 +9,8 @@ from rest_framework import generics
 class ProspectListAPIView(generics.ListCreateAPIView):
     queryset = models.Prospect.objects.all()
     serializer_class = serializers.ProspectSerializer
+
+
+class ProspectDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.Prospect.objects.all()
+    serializer_class = serializers.ProspectSerializer

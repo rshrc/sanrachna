@@ -17,6 +17,11 @@ class ServiceListAPIView(generics.ListCreateAPIView):
     serializer_class = serializers.ServiceSerializer
 
 
+class ServiceDestroyAPIView(generics.DestroyAPIView):
+    queryset = models.Service.objects.all()
+    serializer_class = serializers.ServiceSerializer
+
+
 @api_view(['GET'])
 def get_ply_material(request):
     try:
