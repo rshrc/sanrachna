@@ -4,6 +4,7 @@ from associate import models
 
 class AssociateAdmin(admin.ModelAdmin):
     list_display = [
+        'id',
         'full_name',
         'organization',
         'mobile_number',
