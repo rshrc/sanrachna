@@ -4,10 +4,13 @@ from rest_framework.decorators import api_view
 from database import models
 from database import serializers
 from rest_framework import generics
+from braces.views import CsrfExemptMixin
+from django.views.decorators.csrf import csrf_exempt
 
 
 # even takes post request
-class PlyMaterialListAPIView(generics.ListCreateAPIView):
+class PlyMaterialListAPIView(CsrfExemptMixin, generics.ListCreateAPIView):
+    authentication_classes = []
     queryset = models.PlyMaterial.objects.all()
     serializer_class = serializers.PlyMaterialSerializer
 

@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     'clientele',
     'database',
     'prospect',
+
+
+    'braces',
 ]
 
 MIDDLEWARE = [
