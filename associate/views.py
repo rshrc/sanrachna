@@ -46,3 +46,17 @@ class ServiceMapSupervisorAPIView(generics.ListCreateAPIView):
 class MaterialMapVendorAPIView(generics.ListCreateAPIView):
     queryset = models.MaterialVendor.objects.all()
     serializer_class = serializers.MaterialVendor
+
+
+class MapLabourToSupervisorAPIView(generics.ListCreateAPIView):
+    queryset = models.LabourSupervisor.objects.all()
+    serializer_class = serializers.LabourSupervisorCreateSerializer
+
+
+class MapServiceToSupervisorAPIView(generics.ListCreateAPIView):
+    queryset = models.ServiceSupervisor.objects.all()
+    serializer_class = serializers.ServiceSupervisorCreateSerializer
+
+
+class MapMaterialToVendorAPIView:
+    pass
