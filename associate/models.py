@@ -28,3 +28,15 @@ class Supervisor(AssociateModel):
 
     def __str__(self):
         return self.full_name
+
+
+class LabourSupervisor(models.Model):
+    pass
+
+
+class ServiceSupervisor(models.Model):
+    pass
+
+
+class MaterialVendor(models.Model):
+    pass
