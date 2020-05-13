@@ -8,4 +8,5 @@ urlpatterns = [
     path('labour/<int:pk>/delete/', views.LabourDestroyAPIView.as_view(), name='destroy_labour'),
     path('supervisor/', views.SupervisorListAPIView.as_view(), name='list_supervisor'),
     path('supervisor/<int:pk>/delete/', views.SupervisorDestroyAPIView.as_view(), name='destroy_supervisor'),
+    path('mls/', views.LabourMapSupervisorAPIView.as_view(), name='mls'),
 ]

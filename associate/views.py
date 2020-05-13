@@ -1,6 +1,3 @@
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.decorators import api_view
 from associate import models
 from associate import serializers
 from rest_framework import generics
@@ -34,3 +31,8 @@ class SupervisorListAPIView(generics.ListCreateAPIView):
 class SupervisorDestroyAPIView(generics.DestroyAPIView):
     queryset = models.Supervisor.objects.all()
     serializer_class = serializers.SupervisorSerializer
+
+
+class LabourMapSupervisorAPIView(generics.ListCreateAPIView):
+    queryset = models.LabourSupervisor.objects.all()
+    serializer_class = serializers.LabourSupervisor
