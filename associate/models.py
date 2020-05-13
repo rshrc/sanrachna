@@ -1,4 +1,5 @@
 from django.db import models
+from database.models import Service, PlyMaterial
 from config import config
 
 
@@ -31,12 +32,24 @@ class Supervisor(AssociateModel):
 
 
 class LabourSupervisor(models.Model):
-    pass
+    labour = models.ForeignKey(Labour, on_delete=models.CASCADE)
+    supervisor = models.ForeignKey(Supervisor, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.labour.full_name + " " + self.supervisor.full_name
 
 
 class ServiceSupervisor(models.Model):
-    pass
+    service = models.ForeignKey(Service, on_delete=models.CASCADE)
+    supervisor = models.ForeignKey(Supervisor, on_delete=models.CASCADE)
+
+    def _str__(self):
+        return self.service.name + " " + self.supervisor.full_name
 
 
 class MaterialVendor(models.Model):
-    pass
+    material = models.ForeignKey(PlyMaterial, on_delete=models.CASCADE)
+    vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.material.particulars + " " + self.vendor.full_name

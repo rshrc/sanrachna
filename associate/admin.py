@@ -37,3 +37,33 @@ class SupervisorAdmin(AssociateAdmin):
 
     def __str__(self):
         pass
+
+
+@admin.register(models.LabourSupervisor)
+class LabourSupervisor(admin.ModelAdmin):
+    model = models.LabourSupervisor
+
+    list_display = [
+        'labour',
+        'supervisor',
+    ]
+
+
+@admin.register(models.ServiceSupervisor)
+class ServiceSupervisor(admin.ModelAdmin):
+    model = models.ServiceSupervisor
+
+    list_display = [
+        'service',
+        'supervisor',
+    ]
+
+
+@admin.register(models.MaterialVendor)
+class MaterialVendor(admin.ModelAdmin):
+    model = models.MaterialVendor
+
+    list_display = [
+        'material',
+        'vendor',
+    ]
