@@ -36,3 +36,13 @@ class SupervisorDestroyAPIView(generics.DestroyAPIView):
 class LabourMapSupervisorAPIView(generics.ListCreateAPIView):
     queryset = models.LabourSupervisor.objects.all()
     serializer_class = serializers.LabourSupervisor
+
+
+class ServiceMapSupervisorAPIView(generics.ListCreateAPIView):
+    queryset = models.ServiceSupervisor.objects.all()
+    serializer_class = serializers.ServiceSupervisor
+
+
+class MaterialMapVendorAPIView(generics.ListCreateAPIView):
+    queryset = models.MaterialVendor.objects.all()
+    serializer_class = serializers.MaterialVendor

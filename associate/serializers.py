@@ -33,3 +33,21 @@ class LabourSupervisor(serializers.ModelSerializer):
     class Meta:
         model = models.LabourSupervisor
         fields = ('supervisor_name', 'labour_name')
+
+
+class ServiceSupervisor(serializers.ModelSerializer):
+    service_name = serializers.CharField(read_only=True, source='service.name')
+    supervisor_name = serializers.CharField(read_only=True, source='supervisor.full_name')
+
+    class Meta:
+        model = models.ServiceSupervisor
+        fields = ('supervisor_name', 'service_name')
+
+
+class MaterialVendor(serializers.ModelSerializer):
+    material_name = serializers.CharField(read_only=True, source='material.particulars')
+    vendor_name = serializers.CharField(read_only=True, source='vendor.full_name')
+
+    class Meta:
+        model = models.MaterialVendor
+        fields = ('material_name', 'vendor_name')
