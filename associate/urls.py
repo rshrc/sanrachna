@@ -9,7 +9,9 @@ urlpatterns = [
     path('supervisor/', views.SupervisorListAPIView.as_view(), name='list_supervisor'),
     path('supervisor/<int:pk>/delete/', views.SupervisorDestroyAPIView.as_view(), name='destroy_supervisor'),
     path('mls/', views.LabourMapSupervisorAPIView.as_view(), name='mls'),
+    path('mls/map/', views.MapLabourToSupervisorAPIView.as_view(), name='mls_map'),
     path('mss/', views.ServiceMapSupervisorAPIView.as_view(), name='mss'),
+    path('mss/map/', views.MapServiceToSupervisorAPIView.as_view(), name='mss_map'),
     path('mmv/', views.MaterialMapVendorAPIView.as_view(), name='mmv'),
 
 ]
