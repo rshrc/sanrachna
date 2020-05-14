@@ -1,5 +1,5 @@
 from django.db import models
-from database.models import Service, PlyMaterial
+from database.models import Service, Material
 from config import config
 
 
@@ -48,7 +48,7 @@ class ServiceSupervisor(models.Model):
 
 
 class MaterialVendor(models.Model):
-    material = models.ForeignKey(PlyMaterial, on_delete=models.CASCADE)
+    material = models.ForeignKey(Material, on_delete=models.CASCADE)
     vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE)
 
     def __str__(self):

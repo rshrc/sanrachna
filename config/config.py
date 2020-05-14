@@ -1,8 +1,12 @@
 from rest_framework import serializers
 
 MATERIAL_TYPES = (
-    ('CHEAP', 'CHEAP'),
-    ('EXPENSIVE', 'EXPENSIVE')
+    ('PLY', 'PLY'),
+    ('PAINT', 'PAINT'),
+    ('PLUMBING', 'PLUMBING'),
+    ('ELECTRIC', 'ELECTRIC'),
+    ('TILES', 'TILES'),
+    ('CIVIL', 'CIVIL'),
 )
 
 SERVICE_TYPES = (
@@ -33,7 +37,7 @@ PROSPECT_TYPES = (
     ('CANCEL', 'CANCEL'),
 )
 
-MATERIAL_FIELDS = ['id', 'sno', 'particulars', 'quantity', 'unit', 'rate', 'prospect']
+MATERIAL_FIELDS = ['id', 'sno', 'particulars', 'quantity', 'unit', 'rate', 'prospect', 'type']
 SERVICE_FIELDS = ['id', 'name', 'unit', 'rate', 'prospect']
 PROSPECT_FIELDS = ['id', 'full_name', 'organization', 'email', 'mobile_number', 'site_type', 'source_type']
 ASSOCIATE_FIELDS = ('id', 'full_name', 'organization', 'mobile_number', 'email')

@@ -1,5 +1,6 @@
 from django.db import models
 from prospect.models import Prospect
+from config import config
 
 
 class Material(models.Model):
@@ -9,45 +10,46 @@ class Material(models.Model):
     unit = models.CharField(max_length=100, default="", blank=True)
     rate = models.CharField(max_length=100, default="", blank=True)
     prospect = models.ForeignKey(Prospect, on_delete=models.CASCADE, default="")
-
-    class Meta:
-        abstract = True
-
-
-class PlyMaterial(Material):
+    type = models.CharField(max_length=12, default="", choices=config.MATERIAL_TYPES)
 
     def __str__(self):
-        return self.particulars
+        return self.particulars + " " + self.type
 
 
-class PaintMaterial(Material):
-
-    def __str__(self):
-        return self.particulars
-
-
-class PlumbingMaterial(Material):
-
-    def __str__(self):
-        return self.particulars
-
-
-class ElectricMaterial(Material):
-
-    def __str__(self):
-        return self.particulars
-
-
-class TilesMaterial(Material):
-
-    def __str__(self):
-        return self.particulars
-
-
-class CivilMaterial(Material):
-
-    def __str__(self):
-        return self.particulars
+# class PlyMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
+#
+#
+# class PaintMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
+#
+#
+# class PlumbingMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
+#
+#
+# class ElectricMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
+#
+#
+# class TilesMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
+#
+#
+# class CivilMaterial(Material):
+#
+#     def __str__(self):
+#         return self.particulars
 
 
 class Service(models.Model):
