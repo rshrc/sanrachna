@@ -2,66 +2,18 @@ from django.contrib import admin
 from database import models
 
 
-# @admin.register(Service)
+@admin.register(models.Material)
 class MaterialAdmin(admin.ModelAdmin):
+    model = models.Material
     list_display = [
+        'id',
         'sno',
         'particulars',
         'quantity',
         'unit',
         'rate',
+        'type',
     ]
-
-    class Meta:
-        abstract = True
-
-
-@admin.register(models.PlyMaterial)
-class PlyMaterialAdmin(MaterialAdmin):
-    model = models.PlyMaterial
-
-    def __str__(self):
-        pass
-
-
-@admin.register(models.PaintMaterial)
-class PaintMaterialAdmin(MaterialAdmin):
-    model = models.PaintMaterial
-
-    def __str__(self):
-        pass
-
-
-@admin.register(models.PlumbingMaterial)
-class PlumbingMaterialAdmin(MaterialAdmin):
-    model = models.PlumbingMaterial
-
-    def __str__(self):
-        pass
-
-
-@admin.register(models.ElectricMaterial)
-class ElectricMaterialAdmin(MaterialAdmin):
-    model = models.ElectricMaterial
-
-    def __str__(self):
-        pass
-
-
-@admin.register(models.TilesMaterial)
-class TilesMaterialAdmin(MaterialAdmin):
-    model = models.TilesMaterial
-
-    def __str__(self):
-        pass
-
-
-@admin.register(models.CivilMaterial)
-class CivilMaterialAdmin(MaterialAdmin):
-    model = models.CivilMaterial
-
-    def __str__(self):
-        pass
 
 
 @admin.register(models.Service)
