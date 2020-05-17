@@ -13,5 +13,5 @@ urlpatterns = [
     path('mss/', views.ServiceMapSupervisorAPIView.as_view(), name='mss'),
     path('mss/map/', views.MapServiceToSupervisorAPIView.as_view(), name='mss_map'),
     path('mmv/', views.MaterialMapVendorAPIView.as_view(), name='mmv'),
-
+    path('mmv/map/', views.MaterialMapVendorAPIView.as_view(), name='mmv_map'),
 ]
