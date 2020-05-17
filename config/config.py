@@ -37,7 +37,7 @@ PROSPECT_TYPES = (
     ('CANCEL', 'CANCEL'),
 )
 
-MATERIAL_FIELDS = ['id', 'sno', 'particulars', 'quantity', 'unit', 'rate', 'prospect', 'type']
+MATERIAL_FIELDS = ['id', 'sno', 'particulars', 'quantity', 'unit', 'rate', 'prospect', 'type', 'remark']
 SERVICE_FIELDS = ['id', 'name', 'unit', 'rate', 'prospect']
 PROSPECT_FIELDS = ['id', 'full_name', 'organization', 'email', 'mobile_number', 'site_type', 'source_type']
 ASSOCIATE_FIELDS = ('id', 'full_name', 'organization', 'mobile_number', 'email')

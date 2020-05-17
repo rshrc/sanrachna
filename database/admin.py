@@ -13,6 +13,7 @@ class MaterialAdmin(admin.ModelAdmin):
         'unit',
         'rate',
         'type',
+        'remark',
     ]
 
 
