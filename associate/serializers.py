@@ -56,7 +56,7 @@ class ServiceSupervisorCreateSerializer(serializers.ModelSerializer):
         fields = ('supervisor', 'service')
 
 
-class MaterialVendor(serializers.ModelSerializer):
+class MaterialVendorCreateSerializer(serializers.ModelSerializer):
     material_name = serializers.CharField(read_only=True, source='material.particulars')
     vendor_name = serializers.CharField(read_only=True, source='vendor.full_name')
 
@@ -65,7 +65,3 @@ class MaterialVendor(serializers.ModelSerializer):
         fields = ('material_name', 'vendor_name')
 
 
-class MaterialVendorCreateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = models.MaterialVendor
-        fields = ('material', 'vendor')
